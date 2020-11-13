@@ -1,0 +1,116 @@
+{
+    "student01": {
+        "id": "student01",
+        "firstName": "Summer",
+        "lastName": "Duke",
+        "isDead": true
+    },
+    "student02": {
+        "id": "student02",
+        "firstName": "Kaitlyn",
+        "lastName": "VanHook",
+        "isDead": false 
+    },
+    "student03": {
+        "id": "student03",
+        "firstName": "Jonathon",
+        "lastName": "Joyner",
+        "isDead": false 
+    },
+    "student04": {
+        "id": "student04",
+        "firstName": "Chris",
+        "lastName": "LoJacono",
+        "isDead": false 
+    },
+    "student05": {
+        "id": "student05",
+        "firstName": "Will",
+        "lastName": "Kotheimer",
+        "isDead": false 
+    },
+    "student06": {
+        "id": "student06",
+        "firstName": "Robert",
+        "lastName": "Bandstra",
+        "isDead": false 
+    },
+    "student07": {
+        "id": "student07",
+        "firstName": "Autumn",
+        "lastName": "Fotopoulos",
+        "isDead": false 
+    },
+    "student08": {
+        "id": "student08",
+        "firstName": "Hunter",
+        "lastName": "Juneau",
+        "isDead": false 
+    },
+    "student09": {
+        "id": "student09",
+        "firstName": "Chris",
+        "lastName": "Calhoun",
+        "isDead": false 
+    },
+    "student10": {
+        "id": "student10",
+        "firstName": "Liz",
+        "lastName": "Barnes",
+        "isDead": false 
+    },
+    "student11": {
+        "id": "student11",
+        "firstName": "Samuel",
+        "lastName": "Mudick",
+        "isDead": true 
+    },
+    "student12": {
+        "id": "student12",
+        "firstName": "Dana",
+        "lastName": "Pham",
+        "isDead": false 
+    },
+    "student13": {
+        "id": "student13",
+        "firstName": "Joseph",
+        "lastName": "Martin",
+        "isDead": false 
+    },
+    "student14": {
+        "id": "student14",
+        "firstName": "Wendell",
+        "lastName": "Patton Jr",
+        "isDead": false 
+    },
+    "student15": {
+        "id": "student15",
+        "firstName": "Ryan",
+        "lastName": "McNair",
+        "isDead": false 
+    },
+    "student16": {
+        "id": "student16",
+        "firstName": "Bailey",
+        "lastName": "Dennis",
+        "isDead": false 
+    },
+    "student17": {
+        "id": "student17",
+        "firstName": "Jordan",
+        "lastName": "Smith",
+        "isDead": false 
+    },
+    "student18": {
+        "id": "student18",
+        "firstName": "Deanna",
+        "lastName": "Mix",
+        "isDead": false 
+    },
+    "student19": {
+        "id": "student19",
+        "firstName": "Michael",
+        "lastName": "Pfohl",
+        "isDead": false 
+    }
+}
