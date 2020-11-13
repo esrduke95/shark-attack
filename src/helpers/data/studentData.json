@@ -63,7 +63,7 @@
         "id": "student11",
         "firstName": "Samuel",
         "lastName": "Mudick",
-        "isDead": false 
+        "isDead": true 
     },
     "student12": {
         "id": "student12",
