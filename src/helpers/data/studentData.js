@@ -87,7 +87,7 @@ const students = [
     id: '15',
     firstName: 'Ryan',
     lastName: 'McNair',
-    isDead: true,
+    isDead: false,
   },
   {
     id: '16',
@@ -99,7 +99,7 @@ const students = [
     id: '17',
     firstName: 'Summer',
     lastName: 'Duke',
-    isDead: true,
+    isDead: false,
   },
   {
     id: '18',
@@ -111,7 +111,7 @@ const students = [
     id: '19',
     firstName: 'Wendell',
     lastName: 'Patton Jr.',
-    isDead: true,
+    isDead: false,
   },
   {
     id: '20',
@@ -121,18 +121,18 @@ const students = [
   },
 ];
 
-const livingStudents = () => {
+const liveStudents = () => {
   const alive = students.filter((student) => student.isDead === false);
   return alive;
 };
 const dearlyBeloved = () => {
-  const dead = students.filter((student) => student.isDead === true);
+  const dead = students.filter((student) => student.isDead === false);
   return dead;
 };
 const followTheLight = (id) => {
   const pushingUpDaises = students.find((student) => id === student.id);
-  pushingUpDaises.isDead = true;
+  pushingUpDaises.isDead = false;
 };
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default { livingStudents, dearlyBeloved, followTheLight };
+export default { liveStudents, dearlyBeloved, followTheLight };

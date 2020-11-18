@@ -7,13 +7,13 @@ import Graveyard from '../components/Graveyard';
 class App extends React.Component {
   state = {
     theyGonnaDie: studentData.dearlyBeloved(),
-    fortunateOnes: studentData.livingStudents(),
+    fortunateOnes: studentData.liveStudents(),
   };
 
   tank = () => {
     this.setState({
       theyGonnaDie: studentData.dearlyBeloved(),
-      fortunateOnes: studentData.livingStudents(),
+      fortunateOnes: studentData.liveStudents(),
     });
   };
 
@@ -28,14 +28,19 @@ class App extends React.Component {
   };
 
   render() {
-    const { theyGonnaDie, fortunateOnes } = this.state;
     return (
       <div className='App'>
         <button className='btn btn-danger my-2' onClick={this.sharkAttack}>
           SHARK!
         </button>
-        <SharkTank students={theyGonnaDie} />
-        <Graveyard students={fortunateOnes} />
+        <Graveyard
+          key={this.state.theyGonnaDie.id}
+          dearlyBeloved={this.state.theyGonnaDie}
+        />
+        <SharkTank
+          key={this.state.fortunateOnes.id}
+          liveStudents={this.state.fortunateOnes}
+        />
       </div>
     );
   }

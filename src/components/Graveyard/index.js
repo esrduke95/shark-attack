@@ -3,8 +3,8 @@ import GraveStone from '../GraveStone';
 
 class Graveyard extends Component {
   render() {
-    const { students } = this.props;
-    const deadStudents = () => students.map((student) => <GraveStone key={ student.id } student={student} />);
+    // const { students } = this.props;
+    const deadStudents = (students) => students.map((student) => <GraveStone key={ student.id } student={student} />);
     return (<div className="Graveyard card-container">
             { deadStudents() }
         </div>);
