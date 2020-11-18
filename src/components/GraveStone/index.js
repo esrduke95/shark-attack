@@ -5,7 +5,7 @@ class GraveStone extends Component {
     const { student } = this.props;
     return (<div className="card GraveStone">
         <div className="card-body">
-          <h3 className="card-text text-white RIP">Rest in Peace { student.firstName } { student.lastName }</h3>
+          <h3 className="card-text RIP">Rest in Peace { student.firstName } { student.lastName }</h3>
         </div>
       </div>);
   }
